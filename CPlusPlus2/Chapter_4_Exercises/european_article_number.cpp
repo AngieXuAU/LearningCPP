@@ -16,7 +16,7 @@ int main(){
         }
     }
 
-    Total = FirstSum * 3 + SecondSum - 1;
+    Total = SecondSum * 3 + FirstSum - 1;
 
     printf("Check digit: %d", (9 - (Total % 10)));
 }
