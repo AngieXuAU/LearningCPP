@@ -7,12 +7,12 @@ using namespace std;
 int main(){
     int Smallest, Largest, Int[4];
 
-    cout << "Enter the four integers with a space in between each: ";
+    cout << "Enter the four integers with a space in between each: ";       //Input
     for (int i = 0; i < 4; ++i) {
         cin >> Int[i];
     }
 
-    Smallest = Int[0], Largest = Int[0];
+    Smallest = Int[0], Largest = Int[0];                                    //Finding smallest and largest, using control variable
     for (int i = 1; i < 4; ++i) {
         if (Int[i] < Smallest){
             Smallest = Int[i];
@@ -21,6 +21,6 @@ int main(){
         }
     }
 
-    cout << "Largest: " << Largest << endl << "Smallest: " << Smallest;
+    cout << "Largest: " << Largest << endl << "Smallest: " << Smallest;         //Output
     return 0;
 }
