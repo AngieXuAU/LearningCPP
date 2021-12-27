@@ -99,7 +99,7 @@ void Print_a_unit(int unit){                //for the units
 int main(){
     int Tens=0, Units, Number;
 
-    printf("Enter an integer: ");               //input
+    printf("Enter an integer:\n");        //input
     scanf("%1d%1d", &Tens, &Units);
     printf("%d = ", Tens * 10 + Units);
 

@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     int Smallest, Largest, Int[4];
 
-    cout << "Enter the four integers with a space in between each: ";       //Input
+    cout << "Enter the four integers with a space in between each: " << endl;       //Input
     for (int i = 0; i < 4; ++i) {
         cin >> Int[i];
     }

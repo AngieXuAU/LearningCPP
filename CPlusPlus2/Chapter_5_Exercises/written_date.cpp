@@ -6,8 +6,8 @@
 int main(){
     int Day, Month, Year;
 
-    printf("Enter date (dd/mm/yy): ");
-    scanf("%d/%d/%d", &Day, &Month, &Year);             //Input
+    printf("Enter date (dd/mm/yy): \n");                //Input
+    scanf("%d/%d/%d", &Day, &Month, &Year);
 
     printf("Dated this day, %d", Day);                  //Output (date)
     switch (Day) {
@@ -52,5 +52,6 @@ int main(){
             printf("December"); break;
     }
     printf(", 20%.2d\n", Year);                         //Output (year)
+
     return 0;
 }
