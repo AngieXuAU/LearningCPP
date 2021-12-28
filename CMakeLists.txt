@@ -4,5 +4,5 @@ project(newcpp)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(newcpp
-        CPlusPlus2/Chapter_4_Exercises/tester.cpp
+        CPlusPlus2/Chapter_3_Exercises/practicing_with_scanf.cpp
         )
