@@ -4,25 +4,25 @@
 #include <cstdio>
 
 int main() {
-//    //differences in scanf
-//
-//    float x, y, a, b;
-//
-//    scanf("%f,%f", &x, &y);
-//    printf("%.3f/hi\t%.3f/hi\n", x, y);
-//
-//    scanf("%f, %f", &a, &b);
-//    printf("%.3f/hi\t%.3f/hi", a, b);
-//
-//
-//    //scanf hypothetical a
-//
-//    int i, j;
-//    float Alpha;
-//
-//    scanf("%d%f%d", &i, &Alpha, &j);
-//    printf("Your response has been submitted. Thank you\n");
-//
+    //differences in scanf
+
+    float x, y, a, b;
+
+    scanf("%f,%f", &x, &y);
+    printf("%.3f/hi\t%.3f/hi\n", x, y);
+
+    scanf("%f, %f", &a, &b);
+    printf("%.3f/hi\t%.3f/hi", a, b);
+
+
+    //scanf hypothetical a
+
+    int i, j;
+    float Alpha;
+
+    scanf("%d%f%d", &i, &Alpha, &j);
+    printf("Your response has been submitted. Thank you\n");
+
 
     //scanf hypothetical b
 
