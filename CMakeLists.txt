@@ -4,5 +4,5 @@ project(newcpp)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(newcpp
-        CPlusPlus3/tester_jester_chapter_one_to_four.cpp
+        CPlusPlus3/tester_jester_miscellaneous.cpp
         )
