@@ -4,5 +4,5 @@ project(newcpp)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(newcpp
-        CPlusPlus2/Chapter_4_Exercises/q1_reversed_number.cpp
+        CPlusPlus2/Chapter_5/testing_chapter_5.cpp
         )
