@@ -3,6 +3,6 @@ project(newcpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(newcpp
-        CPlusPlus2/Chapter_5/testing_chapter_5.cpp
+add_executable(newcp
+        CPlusPlus2/Chapter_3/pp3_isbn_breakdown.cpp
         )
