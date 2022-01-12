@@ -2,6 +2,7 @@
 // Created by angel on 3/07/2021.
 //
 #include <iostream>
+
 using namespace std;
 
 int Reversed(int input){                        //Function to reverse digits
